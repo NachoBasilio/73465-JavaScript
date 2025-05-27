@@ -21,6 +21,7 @@ Si necesitas ponerse en contacto conmigo, puedes enviarme un correo electrónico
 ## Enlaces
 
 Drive: https://docs.google.com/presentation/d/1TNA8j112MuxfVaUVhJYM6zXZ7W7d7CXTSP0uBJyv_yE/edit?usp=sharing
+Consigna y ejercicios: https://political-thing-0ef.notion.site/Ejercicios-Coder-1ed0576671bf804da31ded87c46dfe8a?pvs=74
 
 ## Aviso Legal
 
