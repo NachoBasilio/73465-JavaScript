@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alquile un Pokémon</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="title">Centro de Préstamos Pokémon</h1>
+			<button id="toggleCartButton" class="toggle-cart-button">🛒</button>
+		</header>
+
+		<div id="cart" class="cart">
+			<h2 class="cart-title">Tu Préstamo</h2>
+			<div class="cart-item">
+				<img
+					src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+					alt="Charmander"
+					class="cart-image"
+				/>
+				<span class="cart-name">Charmander</span>
+			</div>
+			<button class="checkout-button">Finalizar Préstamo</button>
+		</div>
+
+		<main class="main">
+			<!-- <section class="search-section">
+				<input
+					type="text"
+					placeholder="Buscar Pokémon..."
+					class="search-input"
+				/>
+				<button class="search-button">Buscar</button>
+			</section> -->
+
+			<section id="pokemon-list" class="pokemon-list">
+				<div class="pokemon-card">
+					<img
+						src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+						alt="Pikachu"
+						class="pokemon-image"
+					/>
+					<h2 class="pokemon-name">Pikachu</h2>
+					<p class="pokemon-type">Tipo: Eléctrico</p>
+					<button class="loan-button">Pedir en Seleccion</button>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer-text">Hecho con ❤️ usando la PokeAPI</p>
+		</footer>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
