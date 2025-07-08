@@ -66,3 +66,7 @@ function creadoraDeCardPokemon(pokemon) {
 					<button class="loan-button">Pedir en Seleccion</button>
 				</div>`
 }
+
+navigator.geolocation.getCurrentPosition((pos) => {
+	console.log(pos.coords.latitude + ' ' + pos.coords.longitude)
+})
