@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Perrito con Chaucha Store</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Perrito con chaucha</h1>
+		</header>
+		<main>
+			<div id="productos"></div>
+		</main>
+		<div class="carrito">
+			<h2>Carrito</h2>
+			<div id="carrito"></div>
+			<h3 id="total">0</h3>
+			<button id="terminar-compra">Terminar compra</button>
+		</div>
+		<form
+			class="formulario-para-agregar-producto"
+			action="submit"
+			id="formulario-agrega-productos"
+		>
+			<label for="titulo">Titulo</label>
+			<input type="text" name="titulo" id="titulo" />
+
+			<label for="precio">Precio</label>
+			<input type="number" name="precio" id="precio" />
+
+			<label for="desc">Descripcion</label>
+			<input type="text" name="desc" id="desc" />
+
+			<label for="img">Link imagen</label>
+			<input type="text" name="img" id="img" />
+
+			<button>Agregar</button>
+		</form>
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
